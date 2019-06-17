@@ -1,0 +1,182 @@
+@charset "ISO-8859-1";
+
+<style>
+* {
+	box-sizing: border-box
+}
+.header {
+    text-align: center;
+    width: 100%;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 5%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Set height of body and the document to 100% */
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+	background-color: gray;
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 17px;
+	width: 16.6%;
+}
+
+/* Main column */
+.main {
+	-ms-flex: 70%; /* IE10 */
+	flex: 70%;
+	background-color: yellow;
+	padding: 20px;
+}
+/* Column container */
+.row {
+	display: -ms-flexbox; /* IE10 */
+	display: flex;
+	-ms-flex-wrap: wrap; /* IE10 */
+	flex-wrap: wrap;
+	height: 100%;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+	-ms-flex: 30%; /* IE10 */
+	flex: 20%;
+	background-color: red;
+	padding: 10px;
+}
+.side1 {
+	-ms-flex: 30%; /* IE10 */
+	flex: 20%;
+	background-color: green;
+	padding: 10px;
+}
+.side2 {
+	-ms-flex: 30%; /* IE10 */
+	flex: 20%;
+	background-color: blue;
+	padding: 10px;
+}
+.side3 {
+	-ms-flex: 30%; /* IE10 */
+	flex: 20%;
+	background-color: white;
+	padding: 10px;
+}
+.side4 {
+	-ms-flex: 30%; /* IE10 */
+	flex: 15%;
+	background-color: gray;
+}
+
+.tablink:hover {
+	background-color: gray;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+	display: none;
+	padding: 100px 20px;
+	height: 100%;
+	background-color: white;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background: #ddd;
+}
+
+/* Header/logo Title */
+.header {
+	text-align: center;
+	background-color: blue;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+	background-color: white;
+	padding: 0px;
+}
+
+/* Footer */
+.footer {
+	text-align: center;
+	background: #ddd;
+}
+
+#Home {
+	background-color: white;
+}
+
+#Solution {
+	background-color: white;
+}
+
+#News {
+	background-color: white;
+}
+
+#Contact {
+	background-color: white;
+}
+
+#About {
+	background-color: white;
+}
+
+.accordion {
+    background-color: red;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc; 
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+.img {
+	border-radius: 20%;
+}
+
+</style>

@@ -1,0 +1,579 @@
+/* Style tab links */
+* {
+	box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+	font-family: Arial;
+	margin: 0;
+}
+
+a.fa-globe {
+	position: relative;
+	font-size: 2.2em;
+	color: orange;
+	cursor: pointer;
+}
+
+span.fa-comment {
+	position: absolute;
+	font-size: 0.6em;
+	top: -4px;
+	color: red;
+	right: -4px;
+}
+
+span.num {
+	position: absolute;
+	font-size: 0.3em;
+	top: 1px;
+	color: #fff;
+	right: 2px;
+}
+
+/* Profile button style*/
+.profile-button {
+	width: 120px;
+	padding: 15px;
+	cursor: pointer; 
+	box-shadow: 6px 6px 5px; 
+	-webkit-box-shadow: 6px 6px 5px #999;
+    -moz-box-shadow: 6px 6px 5px #999;
+	background: blue; 
+	color: white; 
+	border-radius: 5px;
+	border: 1px solid #999;
+    font-size: 100%;"
+}
+
+.messages ul li img {
+	width: 22px;
+	border-radius: 50%;
+	float: left;
+}
+
+.messages ul li p {
+	display: inline-block;
+	padding: 10px 15px;
+	border-radius: 15px;
+	max-width: 205px;
+	line-height: 130%;
+}
+
+@media screen and (min-width: 735px) {
+	.messages ul li p {
+		max-width: 100%;
+		word-break: break-all;
+		white-space: normal;
+	}
+}
+
+.messages ul li.sent img {
+	margin: 6px 8px 0 0;
+}
+
+.messages ul li.sent p {
+	background: #958def;
+	color: white;
+}
+.online-panel ul li img {
+	width: 10px;
+	border-radius: 50%;
+	float: left;
+}
+
+.online-panel ul li p {
+	display: inline-block;
+	padding: 10px 15px;
+	border-radius: 15px;
+	max-width: 205px;
+	line-height: 130%;
+}
+
+@media screen and (min-width: 735px) {
+	.online-panel ul li p {
+		max-width: 100%;
+		word-break: break-all;
+		white-space: normal;
+	}
+}
+
+.online-panel ul li.online-friends img {
+	margin: 6px 8px 0 0;
+}
+
+.online-panel ul li.online-friends p {
+	background: #958def;
+	color: white;
+	font-size: 11px;
+}
+
+
+/*post comments start*/
+
+.my-post-comments>ul>li{	
+	padding: 10px 15px;
+	margin: 4px 0;
+	border-radius: 1%;
+	border: 1px solid #f0f0f0;
+	width: 650px;
+}
+
+.my-post-comments div.name {
+	font-weight: bold;
+	color: #417738;
+	font-size: 11px;
+}
+.my-post-comments div.date {
+	font-size: 10px;
+}
+.my-post-comments div.content {
+	width: 100%
+	border-radius: 20%;
+}
+.my-post-comments-img {
+	margin: 6px 8px 0 0;
+	width: 22px;
+	border-radius: 50%;
+}
+
+.my-post-comments img {
+	margin: 6px 8px 0 0;
+}
+
+.post-comments ul li img {
+	width: 22px;
+	border-radius: 50%;
+	float: left;
+}
+
+.post-comments ul li p {
+	display: inline-block;
+	padding: 10px 15px;
+	border-radius: 15px;
+	max-width: 205px;
+	line-height: 130%;
+}
+
+@media screen and (min-width: 735px) {
+	.post-comments ul li p {
+		max-width: 100%;
+		word-break: break-all;
+		white-space: normal;
+	}
+}
+
+.post-comments ul li.my-post-comments img {
+	margin: 6px 8px 0 0;
+}
+
+.post-comments ul li.my-post-comments p {
+	background: #958def;
+	color: white;
+}
+/*post comment ends*/
+
+
+.fa-thumbs-up {
+	color: green;
+	font-size: 30px !important;
+	margin-top: 5px;
+}
+
+.fa-thumbs-down {
+	color: red;
+	font-size: 30px !important;
+	margin-top: 5px;
+}
+
+.fa {
+	font-size: 25px;
+	cursor: pointer;
+	user-select: none;
+}
+
+.fa:hover {
+	color: green;
+}
+
+* /
+	/* Header/logo Title */   
+.header {
+	text-align: center;
+	background: #1abc9c;
+	color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+	font-size: 40px;
+	text-align: center;
+}
+
+/* Style the top navigation bar */
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+	float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+/* Column container */
+.row {
+	display: -ms-flexbox; /* IE10 */
+	display: flex;
+	-ms-flex-wrap: wrap; /* IE10 */
+	overflow: auto;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+	-ms-flex: 30%; /* IE10 */
+	flex: 20%;
+	background-color: white;
+	overflow: auto;
+	overflow: auto;
+	border-style: outset;
+	text-align: center;
+	border: 1px solid gray;
+}
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.right-side {
+	-ms-flex: 30%; /* IE10 */
+	flex: 20%;
+	background-color: white;
+	border-style: outset;
+	border: 1px solid gray;
+}
+
+/* Main column */
+.main {
+	-ms-flex: 70%; /* IE10 */
+	flex: 70%;
+	background-color:;
+	padding: 20px;
+	padding-top:0;
+	overflow: auto;
+	border: 1px solid gray;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+	width: 200px;
+	padding: 0px;
+}
+
+.side-img {
+	width: 200px;
+	height: 120;
+}
+
+.side-img1 {
+	width: 180px;
+	border-radius: 10px;
+	height: 180;
+	transition: transform .1s;
+}
+
+/* Footer */
+.footer {
+	width: 100%;
+	height: 30px;
+	background-color: darkgray;
+	color: white;
+	text-align: center;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+	.row {
+		flex-direction: column;
+	}
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+	.navbar a {
+		float: none;
+		width: 100%;
+	}
+}
+
+.mySlides {
+	display: none;
+}
+
+.accordion {
+	color: white;
+	background-color: #784e9a;
+	cursor: pointer;
+	padding: 10px;
+	width: 100%;
+	border-style: ridge;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
+	border-radius: 5px;
+}
+
+.active, .accordion:hover {
+	background-color: orange;
+}
+
+.online-panel {
+	padding: 0 18px;
+	display: none;
+}
+
+.img {
+	border-radius: 20%;
+}
+
+.tablink {
+	background-color: #483eb7;
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 17px;
+	width: 12.1%;
+}
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+	display: none;
+	padding: 100px 20px;
+	height: 100%;
+}
+/* Change background color of buttons on hover */
+.tablink:hover {
+	background-color: #777;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+	background-color: #4c8ef7;
+}
+
+.blog_heading {
+	float: left;
+}
+
+.id_blog_content {
+	float: right;
+}
+
+.blog_buttons {
+	cursor: pointer;
+}
+
+.blog_buttons {
+	display: inline-block;
+	background: #784e9a; 
+	color: white; 
+	border-radius: 5px;
+	border: 1px solid #999;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+}
+.blog_buttons:hover {
+	background-color: #3e8e41
+}
+
+.blog_buttons:active {
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+	webkit-transform: rotateX(20deg);
+}
+
+/* Start filter text box*/
+* {
+	box-sizing: border-box;
+}
+
+#myInput {
+	background-image: url('/css/searchicon.png');
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	width: 100%;
+	font-size: 16px;
+	padding: 12px 20px 12px 40px;
+	border: 1px solid #ddd;
+	margin-bottom: 12px;
+}
+
+.class_blog_content {
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	width: 100%;
+	font-size: 17px;
+	padding: 12px 20px 12px 40px;
+	border: 1px solid #ddd;
+	margin-bottom: 0px;
+	padding: 12px 20px 12px 40px;
+}
+
+#myTable {
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px solid #ddd;
+	font-size: 18px;
+}
+
+#myTable th, #myTable td {
+	text-align: left;
+	padding: 12px;
+}
+
+#myTable tr {
+	border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+	background-color: #f1f1f1;
+}
+
+
+.contact-profile {
+	width: 70px;
+	border-radius: 50%;
+	float: left;
+	margin: 12px 15px 0 12px;
+}
+.contact-profile-post {
+	width: 30px;
+	border-radius: 50%;
+	float: left;
+	margin: 12px 15px 0 12px;
+	align-self: center;
+	border-style: outset;
+}
+/* search start from here*/
+* {
+    box-sizing: border-box;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.upload-button {
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    float: left;
+}
+
+.profile-pic {
+    max-width: 230px;
+    max-height: 230px;
+    display: block;
+}
+
+.my-post{
+	width: 80%;
+	height: 70%;
+	border-radius: 8px;
+}
+.my-post1{
+	border-radius: 8px;
+	border-style: outset;
+}
+.id_my_post{
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+	overflow: auto;
+}
+.progress {
+  height:21px;
+  width: 300px;
+  border-radius: 5%;
+}
+.myprogress {
+  height:21px;
+  background-color: #ffc4ff;
+  text-align:center;
+  font-size:small;
+  border-radius: 2%;
+}
+.next-panel {
+	background-color:;
+	padding: 20px;
+	overflow: auto;
+	float: right;
+}
+.next-pre-buttons {
+	display: inline-block;
+	background: #784e9a; 
+	color: white; 
+	border-radius: 5px;
+	border: 1px solid #999;
+	text-align: center;
+	font-size: 15px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.side-img1:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}

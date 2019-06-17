@@ -1,0 +1,4 @@
+name: Bajji-Blog
+path: target/Bajji-Blog.war
+domain: cfapps.io
+instances: 1
