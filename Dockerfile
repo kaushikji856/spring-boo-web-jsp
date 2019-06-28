@@ -5,4 +5,4 @@ from tomcat:8-jre8
 MAINTAINER "kaushikji85@gmail.com"
 
 #copy war file to container
-COPY ./DemoProject.war /usr/local/tomcat/webapps
+COPY ./Spring-Boot-AWS.war /usr/local/tomcat/webapps
