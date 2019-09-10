@@ -11,19 +11,13 @@ import org.springframework.web.servlet.ModelAndView;
 public class WelcomeController {
 
 	// inject via application.properties
-	//@Value("${welcome.message:test}")
+	@Value("${welcome.message:test}")
 	private String message = "Hello World";
 
-	@RequestMapping("/welcome")
+	@RequestMapping("/")
 	public String welcome(Map<String, Object> model) {
 		model.put("message", this.message);
 		return "welcome";
-	}
-	
-	@RequestMapping("/")
-	public ModelAndView bajjiblog() {
-		ModelAndView  modelAndView = new ModelAndView("common");
-		return modelAndView;
 	}
 
 }
